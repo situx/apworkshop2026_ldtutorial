@@ -8,8 +8,8 @@
 @prefix doap: <http://usefulinc.com/ns/doap#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://www.wikidata.org/prop/direct/> .
-@prefix ns2: <http://www.w3.org/ns/locn#> .
+@prefix ns1: <http://www.w3.org/ns/locn#> .
+@prefix ns2: <http://www.wikidata.org/prop/direct/> .
 @prefix ns3: <http://ldf.fi/void-ext#> .
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 @prefix org: <http://www.w3.org/ns/org#> .
@@ -41,10 +41,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/120_openmonths> ;
-    ns2:postCode 10405 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 10405 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/20> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -57,10 +57,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/20_openmonths> ;
-    ns2:postCode 10623 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10623 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1994"^^xsd:gYear ;
+    ns2:P571 "1994"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/Bituma_collection> a geo:FeatureCollection,
@@ -947,7 +947,7 @@
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:linkPredicate rdf:type,
         rdfs:subClassOf,
-        ns1:P131 ;
+        ns2:P131 ;
     void:objectsTarget <http://www.wikidata.org/entity/> ;
     void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
     void:triples 4,
@@ -965,10 +965,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "zur Zeit wegen Reparatur außer Betrieb"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/1_openmonths> ;
-    ns2:postCode 12349 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12349 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/10> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -982,10 +982,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "zur Zeit wegen Reparatur außer Betrieb"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/10_openmonths> ;
-    ns2:postCode 12355 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12355 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/100> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -999,10 +999,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/100_openmonths> ;
-    ns2:postCode 12165 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 12165 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/101> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1016,10 +1016,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/101_openmonths> ;
-    ns2:postCode 12163 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 12163 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/102> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1033,10 +1033,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/102_openmonths> ;
-    ns2:postCode 10367 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10367 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/103> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1050,10 +1050,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/103_openmonths> ;
-    ns2:postCode 10243 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10243 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/104> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1067,10 +1067,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/104_openmonths> ;
-    ns2:postCode 10243 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10243 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/105> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1084,10 +1084,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/105_openmonths> ;
-    ns2:postCode 10243 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10243 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/106> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1101,10 +1101,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/106_openmonths> ;
-    ns2:postCode 10247 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10247 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/107> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1118,10 +1118,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/107_openmonths> ;
-    ns2:postCode 10247 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10247 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/108> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1135,10 +1135,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/108_openmonths> ;
-    ns2:postCode 10243 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10243 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/109> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1152,10 +1152,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/109_openmonths> ;
-    ns2:postCode 10961 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10961 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/11> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1169,10 +1169,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/11_openmonths> ;
-    ns2:postCode 12055 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12055 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/110> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1186,10 +1186,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/110_openmonths> ;
-    ns2:postCode 12045 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12045 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/111> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1203,10 +1203,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/111_openmonths> ;
-    ns2:postCode 12053 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12053 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/112> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1220,10 +1220,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/112_openmonths> ;
-    ns2:postCode 13359 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13359 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/113> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1237,10 +1237,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/113_openmonths> ;
-    ns2:postCode 13347 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13347 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/114> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1254,10 +1254,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/114_openmonths> ;
-    ns2:postCode 13347 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13347 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/115> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1271,10 +1271,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/115_openmonths> ;
-    ns2:postCode 13347 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13347 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/116> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1288,10 +1288,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/116_openmonths> ;
-    ns2:postCode 12101 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158106>,
+    ns1:postCode 12101 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158106>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/117> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1305,10 +1305,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/117_openmonths> ;
-    ns2:postCode 10965 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 10965 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/118> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1322,10 +1322,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/118_openmonths> ;
-    ns2:postCode 12437 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158089>,
+    ns1:postCode 12437 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158089>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/119> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1339,10 +1339,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/119_openmonths> ;
-    ns2:postCode 12589 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158089>,
+    ns1:postCode 12589 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158089>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/12> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1356,10 +1356,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php   "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/12_openmonths> ;
-    ns2:postCode 13507 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158876>,
+    ns1:postCode 13507 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158876>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/121> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1373,10 +1373,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/121_openmonths> ;
-    ns2:postCode 10437 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 10437 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/122> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1390,10 +1390,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/122_openmonths> ;
-    ns2:postCode 10963 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10963 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/123> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1407,10 +1407,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/123_openmonths> ;
-    ns2:postCode 10707 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10707 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/124> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1424,10 +1424,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/124_openmonths> ;
-    ns2:postCode 10969 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10969 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/125> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1441,10 +1441,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/125_openmonths> ;
-    ns2:postCode 13597 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13597 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/126> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1458,10 +1458,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/126_openmonths> ;
-    ns2:postCode 12355 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12355 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/127> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1475,10 +1475,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/127_openmonths> ;
-    ns2:postCode 13059 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13059 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/128> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1492,10 +1492,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/128_openmonths> ;
-    ns2:postCode 13057 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13057 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/129> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1509,10 +1509,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/129_openmonths> ;
-    ns2:postCode 10315 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10315 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/13> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1526,10 +1526,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/13_openmonths> ;
-    ns2:postCode 13597 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13597 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/130> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1543,10 +1543,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/130_openmonths> ;
-    ns2:postCode 13189 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 13189 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/131> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1560,10 +1560,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "zur Zeit wegen Reparatur außer Betrieb"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/131_openmonths> ;
-    ns2:postCode 13187 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 13187 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/132> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1577,10 +1577,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/132_openmonths> ;
-    ns2:postCode 10969 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10969 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/133> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1594,10 +1594,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/133_openmonths> ;
-    ns2:postCode 10589 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10589 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/134> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1611,10 +1611,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/134_openmonths> ;
-    ns2:postCode 13156 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 13156 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/135> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1628,10 +1628,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/135_openmonths> ;
-    ns2:postCode 13187 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 13187 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/136> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1645,10 +1645,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/136_openmonths> ;
-    ns2:postCode 12489 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158089>,
+    ns1:postCode 12489 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158089>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/137> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1662,10 +1662,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/137_openmonths> ;
-    ns2:postCode 12559 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158089>,
+    ns1:postCode 12559 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158089>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/138> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1679,10 +1679,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/138_openmonths> ;
-    ns2:postCode 10409 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 10409 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/139> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1696,10 +1696,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/139_openmonths> ;
-    ns2:postCode 10249 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10249 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/14> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1713,10 +1713,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/14_openmonths> ;
-    ns2:postCode 13585 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13585 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/140> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1730,10 +1730,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/140_openmonths> ;
-    ns2:postCode 13059 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13059 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/141> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1747,10 +1747,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/141_openmonths> ;
-    ns2:postCode 14163 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 14163 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/142> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1764,10 +1764,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/142_openmonths> ;
-    ns2:postCode 12689 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12689 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/143> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1781,10 +1781,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/143_openmonths> ;
-    ns2:postCode 10405 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 10405 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/144> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1798,10 +1798,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/144_openmonths> ;
-    ns2:postCode 10439 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 10439 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/145> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1815,10 +1815,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/145_openmonths> ;
-    ns2:postCode 12247 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 12247 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/146> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1832,10 +1832,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/146_openmonths> ;
-    ns2:postCode 13435 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158876>,
+    ns1:postCode 13435 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158876>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/147> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1849,10 +1849,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/147_openmonths> ;
-    ns2:postCode 13409 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158876>,
+    ns1:postCode 13409 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158876>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/148> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1866,10 +1866,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/148_openmonths> ;
-    ns2:postCode 10405 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 10405 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/149> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1883,10 +1883,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/149_openmonths> ;
-    ns2:postCode 10551 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10551 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/15> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1900,10 +1900,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/15_openmonths> ;
-    ns2:postCode 14050 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 14050 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/150> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1917,10 +1917,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/150_openmonths> ;
-    ns2:postCode 12685 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12685 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/151> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1934,10 +1934,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/151_openmonths> ;
-    ns2:postCode 12679 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12679 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/152> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1951,10 +1951,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/152_openmonths> ;
-    ns2:postCode 12619 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12619 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/153> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1968,10 +1968,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/153_openmonths> ;
-    ns2:postCode 12045 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12045 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/154> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1985,10 +1985,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/154_openmonths> ;
-    ns2:postCode 10317 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10317 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/155> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2002,10 +2002,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/155_openmonths> ;
-    ns2:postCode 10365 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10365 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/156> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2019,10 +2019,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/156_openmonths> ;
-    ns2:postCode 10317 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10317 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/157> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2036,10 +2036,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/157_openmonths> ;
-    ns2:postCode 10314 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10314 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/158> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2053,10 +2053,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/158_openmonths> ;
-    ns2:postCode 12059 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12059 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/159> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2070,10 +2070,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/159_openmonths> ;
-    ns2:postCode 13587 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13587 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/16> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2087,10 +2087,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/16_openmonths> ;
-    ns2:postCode 13595 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13595 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/160> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2104,10 +2104,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/160_openmonths> ;
-    ns2:postCode 13585 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13585 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/161> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2121,10 +2121,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/161_openmonths> ;
-    ns2:postCode 13589 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13589 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/162> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2138,10 +2138,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/162_openmonths> ;
-    ns2:postCode 10409 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 10409 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/163> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2155,10 +2155,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/163_openmonths> ;
-    ns2:postCode 10627 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10627 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/164> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2172,10 +2172,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/164_openmonths> ;
-    ns2:postCode 10245 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10245 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/165> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2189,10 +2189,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/165_openmonths> ;
-    ns2:postCode 13353 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13353 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/166> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2206,10 +2206,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/166_openmonths> ;
-    ns2:postCode 13347 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13347 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/167> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2223,10 +2223,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/167_openmonths> ;
-    ns2:postCode 13055 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13055 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/168> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2240,10 +2240,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/168_openmonths> ;
-    ns2:postCode 13055 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13055 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/169> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2257,10 +2257,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/169_openmonths> ;
-    ns2:postCode 13055 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13055 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/17> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2274,10 +2274,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/17_openmonths> ;
-    ns2:postCode 14195 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 14195 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/170> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2291,10 +2291,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/170_openmonths> ;
-    ns2:postCode 10369 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10369 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/171> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2308,10 +2308,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/171_openmonths> ;
-    ns2:postCode 10969 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10969 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/172> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2325,10 +2325,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/172_openmonths> ;
-    ns2:postCode 12687 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12687 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/173> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2342,10 +2342,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/173_openmonths> ;
-    ns2:postCode 12681 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12681 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/174> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2359,10 +2359,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/174_openmonths> ;
-    ns2:postCode 12049 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12049 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/175> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2376,10 +2376,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/175_openmonths> ;
-    ns2:postCode 12101 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12101 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/176> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2393,10 +2393,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/176_openmonths> ;
-    ns2:postCode 13587 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13587 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/177> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2410,10 +2410,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/177_openmonths> ;
-    ns2:postCode 13585 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13585 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/178> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2427,10 +2427,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/178_openmonths> ;
-    ns2:postCode 12305 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158106>,
+    ns1:postCode 12305 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158106>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/179> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2444,10 +2444,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/179_openmonths> ;
-    ns2:postCode 10245 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10245 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/18> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2461,10 +2461,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/18_openmonths> ;
-    ns2:postCode 13507 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158876>,
+    ns1:postCode 13507 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158876>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/180> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2478,10 +2478,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/180_openmonths> ;
-    ns2:postCode 10967 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10967 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/181> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2495,10 +2495,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/181_openmonths> ;
-    ns2:postCode 10369 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10369 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/182> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2512,10 +2512,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/182_openmonths> ;
-    ns2:postCode 10369 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10369 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/183> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2529,10 +2529,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/183_openmonths> ;
-    ns2:postCode 13581 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13581 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/184> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2546,10 +2546,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/184_openmonths> ;
-    ns2:postCode 13437 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158876>,
+    ns1:postCode 13437 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158876>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/185> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2563,10 +2563,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/185_openmonths> ;
-    ns2:postCode 13353 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13353 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/186> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2580,10 +2580,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/186_openmonths> ;
-    ns2:postCode 13353 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13353 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/187> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2597,10 +2597,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/187_openmonths> ;
-    ns2:postCode 10997 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10997 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/188> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2614,10 +2614,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/188_openmonths> ;
-    ns2:postCode 10997 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10997 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/189> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2631,10 +2631,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/189_openmonths> ;
-    ns2:postCode 10969 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10969 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/19> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2648,10 +2648,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/19_openmonths> ;
-    ns2:postCode 13357 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13357 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/190> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2665,10 +2665,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/190_openmonths> ;
-    ns2:postCode 10437 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 10437 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/191> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2682,10 +2682,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/191_openmonths> ;
-    ns2:postCode 13053 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13053 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/192> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2699,10 +2699,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/192_openmonths> ;
-    ns2:postCode 13053 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13053 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/193> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2716,10 +2716,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/193_openmonths> ;
-    ns2:postCode 13088 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 13088 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/194> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2733,10 +2733,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/194_openmonths> ;
-    ns2:postCode 10247 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10247 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/195> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2750,10 +2750,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/195_openmonths> ;
-    ns2:postCode 10829 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158106>,
+    ns1:postCode 10829 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158106>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/196> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2767,10 +2767,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/196_openmonths> ;
-    ns2:postCode 10829 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158106>,
+    ns1:postCode 10829 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158106>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/197> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2784,10 +2784,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/197_openmonths> ;
-    ns2:postCode 10823 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158106>,
+    ns1:postCode 10823 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158106>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/199> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2801,10 +2801,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/199_openmonths> ;
-    ns2:postCode 13595 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13595 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/2> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2818,10 +2818,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/2_openmonths> ;
-    ns2:postCode 12349 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12349 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/200> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2835,10 +2835,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/200_openmonths> ;
-    ns2:postCode 12355 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12355 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/201> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2852,10 +2852,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/201_openmonths> ;
-    ns2:postCode 10969 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10969 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/202> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2869,10 +2869,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/202_openmonths> ;
-    ns2:postCode 10965 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158106>,
+    ns1:postCode 10965 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158106>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/203> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2886,10 +2886,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/203_openmonths> ;
-    ns2:postCode 12459 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158089>,
+    ns1:postCode 12459 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158089>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/204> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2903,10 +2903,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/204_openmonths> ;
-    ns2:postCode 10437 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 10437 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/205> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2920,10 +2920,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/205_openmonths> ;
-    ns2:postCode 10365 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10365 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/206> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2937,10 +2937,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/206_openmonths> ;
-    ns2:postCode 13627 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 13627 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/207> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2954,10 +2954,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/207_openmonths> ;
-    ns2:postCode 10319 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10319 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/208> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2971,10 +2971,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/208_openmonths> ;
-    ns2:postCode 14129 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 14129 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/209> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2988,10 +2988,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/209_openmonths> ;
-    ns2:postCode 10319 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10319 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/21> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3005,10 +3005,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/21_openmonths> ;
-    ns2:postCode 14193 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 14193 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2008"^^xsd:gYear ;
+    ns2:P571 "2008"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/210> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3022,10 +3022,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/210_openmonths> ;
-    ns2:postCode 10999 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10999 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/211> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3039,10 +3039,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/211_openmonths> ;
-    ns2:postCode 13347 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13347 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/212> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3056,10 +3056,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/212_openmonths> ;
-    ns2:postCode 10117 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10117 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/213> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3073,10 +3073,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/213_openmonths> ;
-    ns2:postCode 12051 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12051 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2022"^^xsd:gYear ;
+    ns2:P571 "2022"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/214> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3090,10 +3090,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/214_openmonths> ;
-    ns2:postCode 10779 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10779 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/215> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3107,10 +3107,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/215_openmonths> ;
-    ns2:postCode 14057 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 14057 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/216> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3124,10 +3124,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/216_openmonths> ;
-    ns2:postCode 14057 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 14057 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/217> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3141,10 +3141,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/217_openmonths> ;
-    ns2:postCode 13629 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13629 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/218> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3158,10 +3158,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/218_openmonths> ;
-    ns2:postCode 13595 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13595 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/219> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3175,10 +3175,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/219_openmonths> ;
-    ns2:postCode 10785 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10785 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/22> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3192,10 +3192,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/22_openmonths> ;
-    ns2:postCode 10719 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10719 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2010"^^xsd:gYear ;
+    ns2:P571 "2010"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/220> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3209,10 +3209,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/220_openmonths> ;
-    ns2:postCode 10555 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10555 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/221> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3226,10 +3226,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/221_openmonths> ;
-    ns2:postCode 14197 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 14197 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/222> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3243,10 +3243,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/222_openmonths> ;
-    ns2:postCode 10585 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10585 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/223> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3260,10 +3260,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/223_openmonths> ;
-    ns2:postCode 12157 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158106>,
+    ns1:postCode 12157 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158106>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/224> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3277,10 +3277,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/224_openmonths> ;
-    ns2:postCode 12169 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 12169 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/225> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3294,10 +3294,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/225_openmonths> ;
-    ns2:postCode 12629 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12629 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2024"^^xsd:gYear ;
+    ns2:P571 "2024"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/226> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3311,10 +3311,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/226_openmonths> ;
-    ns2:postCode 12437 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158089>,
+    ns1:postCode 12437 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158089>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/227> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3328,10 +3328,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/227_openmonths> ;
-    ns2:postCode 13055 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13055 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/228> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3345,10 +3345,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/228_openmonths> ;
-    ns2:postCode 12524 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158089>,
+    ns1:postCode 12524 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158089>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/229> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3362,10 +3362,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/229_openmonths> ;
-    ns2:postCode 12103 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158106>,
+    ns1:postCode 12103 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158106>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/23> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3379,10 +3379,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/23_openmonths> ;
-    ns2:postCode 12047 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12047 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2010"^^xsd:gYear ;
+    ns2:P571 "2010"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/230> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3396,10 +3396,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/230_openmonths> ;
-    ns2:postCode 13125 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 13125 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/231> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3413,10 +3413,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/231_openmonths> ;
-    ns2:postCode 13086 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 13086 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/232> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3430,10 +3430,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/232_openmonths> ;
-    ns2:postCode 10555 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10555 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/233> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3447,10 +3447,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/233_openmonths> ;
-    ns2:postCode 13059 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13059 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2024"^^xsd:gYear ;
+    ns2:P571 "2024"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/234> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3464,10 +3464,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/234_openmonths> ;
-    ns2:postCode 13051 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13051 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2024"^^xsd:gYear ;
+    ns2:P571 "2024"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/235> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3481,10 +3481,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/235_openmonths> ;
-    ns2:postCode 14053 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 14053 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2024"^^xsd:gYear ;
+    ns2:P571 "2024"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/236> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3498,10 +3498,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/236_openmonths> ;
-    ns2:postCode 14053 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 14053 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2024"^^xsd:gYear ;
+    ns2:P571 "2024"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/237> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3515,10 +3515,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/237_openmonths> ;
-    ns2:postCode 14053 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 14053 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2024"^^xsd:gYear ;
+    ns2:P571 "2024"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/238> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3532,10 +3532,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/238_openmonths> ;
-    ns2:postCode 10715 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10715 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2024"^^xsd:gYear ;
+    ns2:P571 "2024"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/239> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3549,10 +3549,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/239_openmonths> ;
-    ns2:postCode 10409 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 10409 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/24> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3566,10 +3566,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/24_openmonths> ;
-    ns2:postCode 10963 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10963 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2013"^^xsd:gYear ;
+    ns2:P571 "2013"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/240> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3583,10 +3583,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/240_openmonths> ;
-    ns2:postCode 14163 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 14163 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2024"^^xsd:gYear ;
+    ns2:P571 "2024"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/241> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3600,10 +3600,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/241_openmonths> ;
-    ns2:postCode 13359 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13359 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2024"^^xsd:gYear ;
+    ns2:P571 "2024"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/242> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3617,10 +3617,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/242_openmonths> ;
-    ns2:postCode 13357 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13357 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2024"^^xsd:gYear ;
+    ns2:P571 "2024"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/243> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3634,10 +3634,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/243_openmonths> ;
-    ns2:postCode 13359 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13359 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2024"^^xsd:gYear ;
+    ns2:P571 "2024"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/25> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3651,10 +3651,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/25_openmonths> ;
-    ns2:postCode 10318 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10318 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2013"^^xsd:gYear ;
+    ns2:P571 "2013"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/26> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3668,10 +3668,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/26_openmonths> ;
-    ns2:postCode 14193 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 14193 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2014"^^xsd:gYear ;
+    ns2:P571 "2014"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/27> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3685,10 +3685,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/27_openmonths> ;
-    ns2:postCode 10555 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10555 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2014"^^xsd:gYear ;
+    ns2:P571 "2014"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/28> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3702,10 +3702,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/28_openmonths> ;
-    ns2:postCode 14059 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 14059 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2015"^^xsd:gYear ;
+    ns2:P571 "2015"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/29> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3719,10 +3719,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/29_openmonths> ;
-    ns2:postCode 12555 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158089>,
+    ns1:postCode 12555 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158089>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/3> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3736,10 +3736,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/3_openmonths> ;
-    ns2:postCode 10719 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10719 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/30> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3753,10 +3753,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/30_openmonths> ;
-    ns2:postCode 12459 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158089>,
+    ns1:postCode 12459 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158089>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/31> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3770,10 +3770,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/31_openmonths> ;
-    ns2:postCode 12587 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158089>,
+    ns1:postCode 12587 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158089>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2015"^^xsd:gYear ;
+    ns2:P571 "2015"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/32> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3787,10 +3787,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/32_openmonths> ;
-    ns2:postCode 10559 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10559 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2015"^^xsd:gYear ;
+    ns2:P571 "2015"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/33> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3804,10 +3804,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/33_openmonths> ;
-    ns2:postCode 12459 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158089>,
+    ns1:postCode 12459 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158089>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2023"^^xsd:gYear ;
+    ns2:P571 "2023"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/34> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3821,10 +3821,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "zur Zeit wegen Reparatur außer Betrieb"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/34_openmonths> ;
-    ns2:postCode 10317 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10317 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2016"^^xsd:gYear ;
+    ns2:P571 "2016"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/35> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3838,10 +3838,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/35_openmonths> ;
-    ns2:postCode 12685 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12685 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2016"^^xsd:gYear ;
+    ns2:P571 "2016"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/36> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3855,10 +3855,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/36_openmonths> ;
-    ns2:postCode 10117 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10117 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2016"^^xsd:gYear ;
+    ns2:P571 "2016"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/37> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3872,10 +3872,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "zur Zeit wegen Reparatur außer Betrieb"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/37_openmonths> ;
-    ns2:postCode 13187 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 13187 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2016"^^xsd:gYear ;
+    ns2:P571 "2016"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/38> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3889,10 +3889,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/38_openmonths> ;
-    ns2:postCode 13357 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13357 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2017"^^xsd:gYear ;
+    ns2:P571 "2017"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/39> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3906,10 +3906,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/39_openmonths> ;
-    ns2:postCode 12683 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12683 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2017"^^xsd:gYear ;
+    ns2:P571 "2017"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/4> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3923,10 +3923,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/4_openmonths> ;
-    ns2:postCode 10243 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10243 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/40> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3940,10 +3940,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/40_openmonths> ;
-    ns2:postCode 13355 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13355 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2017"^^xsd:gYear ;
+    ns2:P571 "2017"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/41> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3957,10 +3957,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/41_openmonths> ;
-    ns2:postCode 13187 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 13187 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2017"^^xsd:gYear ;
+    ns2:P571 "2017"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/42> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3974,10 +3974,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/42_openmonths> ;
-    ns2:postCode 13507 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158876>,
+    ns1:postCode 13507 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158876>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2017"^^xsd:gYear ;
+    ns2:P571 "2017"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/43> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3991,10 +3991,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/43_openmonths> ;
-    ns2:postCode 13507 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158876>,
+    ns1:postCode 13507 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158876>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2017"^^xsd:gYear ;
+    ns2:P571 "2017"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/44> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4008,10 +4008,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/44_openmonths> ;
-    ns2:postCode 10243 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10243 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/45> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4025,10 +4025,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/45_openmonths> ;
-    ns2:postCode 10117 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10117 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/46> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4042,10 +4042,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/46_openmonths> ;
-    ns2:postCode 10999 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10999 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/47> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4059,10 +4059,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/47_openmonths> ;
-    ns2:postCode 10317 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10317 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/48> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4076,10 +4076,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/48_openmonths> ;
-    ns2:postCode 10369 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10369 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/49> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4093,10 +4093,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "wegen Baumaßnahme der DB AG außer Betrieb"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/49_openmonths> ;
-    ns2:postCode 10317 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10317 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/5> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4110,10 +4110,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/5_openmonths> ;
-    ns2:postCode 13051 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 13051 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2021"^^xsd:gYear ;
+    ns2:P571 "2021"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/50> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4127,10 +4127,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/50_openmonths> ;
-    ns2:postCode 10319 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+    ns1:postCode 10319 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q329609>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/51> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4144,10 +4144,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/51_openmonths> ;
-    ns2:postCode 12638 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12638 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/52> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4161,10 +4161,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/52_openmonths> ;
-    ns2:postCode 12681 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12681 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/53> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4178,10 +4178,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/53_openmonths> ;
-    ns2:postCode 12679 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12679 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/54> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4195,10 +4195,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/54_openmonths> ;
-    ns2:postCode 12627 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12627 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/55> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4212,10 +4212,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/55_openmonths> ;
-    ns2:postCode 10117 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10117 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/56> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4229,10 +4229,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/56_openmonths> ;
-    ns2:postCode 10117 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10117 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/57> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4246,10 +4246,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/57_openmonths> ;
-    ns2:postCode 10117 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10117 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/58> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4263,10 +4263,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/58_openmonths> ;
-    ns2:postCode 10117 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10117 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/59> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4280,10 +4280,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/59_openmonths> ;
-    ns2:postCode 13353 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 13353 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/6> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4297,10 +4297,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "zur Zeit wegen Reparatur außer Betrieb"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/6_openmonths> ;
-    ns2:postCode 10999 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10999 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/60> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4314,10 +4314,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/60_openmonths> ;
-    ns2:postCode 10243 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10243 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/61> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4331,10 +4331,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/61_openmonths> ;
-    ns2:postCode 12167 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 12167 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/62> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4348,10 +4348,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/62_openmonths> ;
-    ns2:postCode 10707 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10707 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/63> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4365,10 +4365,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/63_openmonths> ;
-    ns2:postCode 14057 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 14057 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/64> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4382,10 +4382,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/64_openmonths> ;
-    ns2:postCode 10719 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10719 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/65> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4399,10 +4399,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/65_openmonths> ;
-    ns2:postCode 10243 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10243 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/66> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4416,10 +4416,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/66_openmonths> ;
-    ns2:postCode 10967 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10967 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/67> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4433,10 +4433,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/67_openmonths> ;
-    ns2:postCode 12683 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12683 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2018"^^xsd:gYear ;
+    ns2:P571 "2018"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/68> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4450,10 +4450,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/68_openmonths> ;
-    ns2:postCode 10627 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10627 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/69> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4467,10 +4467,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/69_openmonths> ;
-    ns2:postCode 10627 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10627 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/7> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4484,10 +4484,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/7_openmonths> ;
-    ns2:postCode 12207 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 12207 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/70> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4501,10 +4501,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/70_openmonths> ;
-    ns2:postCode 10997 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10997 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/71> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4518,10 +4518,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/71_openmonths> ;
-    ns2:postCode 13437 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158876>,
+    ns1:postCode 13437 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158876>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/72> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4535,10 +4535,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/72_openmonths> ;
-    ns2:postCode 12159 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158106>,
+    ns1:postCode 12159 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158106>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/73> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4552,10 +4552,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/73_openmonths> ;
-    ns2:postCode 10178 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10178 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/74> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4569,10 +4569,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/74_openmonths> ;
-    ns2:postCode 14195 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 14195 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/75> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4586,10 +4586,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/75_openmonths> ;
-    ns2:postCode 14195 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 14195 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/76> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4603,10 +4603,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/76_openmonths> ;
-    ns2:postCode 14169 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 14169 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/77> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4620,10 +4620,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/77_openmonths> ;
-    ns2:postCode 12043 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12043 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/78> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4637,10 +4637,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/78_openmonths> ;
-    ns2:postCode 10713 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10713 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/79> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4654,10 +4654,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/79_openmonths> ;
-    ns2:postCode 13465 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158876>,
+    ns1:postCode 13465 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158876>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2020"^^xsd:gYear ;
+    ns2:P571 "2020"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/8> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4671,10 +4671,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/8_openmonths> ;
-    ns2:postCode 12687 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12687 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/80> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4688,10 +4688,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/80_openmonths> ;
-    ns2:postCode 13407 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158876>,
+    ns1:postCode 13407 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158876>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/81> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4705,10 +4705,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "wegen Baumaßnahme der NBB außer Betrieb"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/81_openmonths> ;
-    ns2:postCode 12207 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 12207 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/82> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4722,10 +4722,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/82_openmonths> ;
-    ns2:postCode 13585 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13585 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/83> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4739,10 +4739,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/83_openmonths> ;
-    ns2:postCode 13597 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13597 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/84> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4756,10 +4756,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/84_openmonths> ;
-    ns2:postCode 13595 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13595 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/85> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4773,10 +4773,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/85_openmonths> ;
-    ns2:postCode 10551 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10551 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/86> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4790,10 +4790,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/86_openmonths> ;
-    ns2:postCode 13597 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13597 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/87> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4807,10 +4807,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/87_openmonths> ;
-    ns2:postCode 10247 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10247 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/88> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4824,10 +4824,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/88_openmonths> ;
-    ns2:postCode 10707 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10707 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/89> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4841,10 +4841,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/89_openmonths> ;
-    ns2:postCode 10627 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10627 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/9> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4858,10 +4858,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/9_openmonths> ;
-    ns2:postCode 10179 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q2013767>,
+    ns1:postCode 10179 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q2013767>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/90> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4875,10 +4875,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/90_openmonths> ;
-    ns2:postCode 13088 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 13088 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/91> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4892,10 +4892,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/91_openmonths> ;
-    ns2:postCode 10437 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q163012>,
+    ns1:postCode 10437 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q163012>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/92> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4909,10 +4909,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/92_openmonths> ;
-    ns2:postCode 10961 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158893>,
+    ns1:postCode 10961 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158893>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/93> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4926,10 +4926,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/93_openmonths> ;
-    ns2:postCode 12203 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 12203 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/94> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4943,10 +4943,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/94_openmonths> ;
-    ns2:postCode 14163 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158064>,
+    ns1:postCode 14163 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158064>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/95> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4960,10 +4960,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/95_openmonths> ;
-    ns2:postCode 10717 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158095>,
+    ns1:postCode 10717 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158095>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/96> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4977,10 +4977,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/96_openmonths> ;
-    ns2:postCode 13593 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q158083>,
+    ns1:postCode 13593 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q158083>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/97> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4994,10 +4994,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/97_openmonths> ;
-    ns2:postCode 12053 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12053 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/98> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5011,10 +5011,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/98_openmonths> ;
-    ns2:postCode 12051 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12051 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/99> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5028,10 +5028,10 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/99_openmonths> ;
-    ns2:postCode 12051 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q4071168>,
+    ns1:postCode 12051 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q4071168>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "2019"^^xsd:gYear ;
+    ns2:P571 "2019"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P131> a void:Dataset,
@@ -5039,7 +5039,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: P131"@en ;
-    void:property ns1:P131 ;
+    void:property ns2:P131 ;
     void:triples 484 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P571> a void:Dataset,
@@ -5047,7 +5047,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: P571"@en ;
-    void:property ns1:P571 ;
+    void:property ns2:P571 ;
     void:triples 242 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_abbreviation> a void:Dataset,
@@ -5386,7 +5386,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: postCode"@en ;
-    void:property ns2:postCode ;
+    void:property ns1:postCode ;
     void:triples 242 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_primeMeridian> a void:Dataset,
@@ -9917,7 +9917,7 @@
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2026-11-02T11:28:01"^^xsd:dateTime ;
+    dcterms:modified "2026-11-02T14:50:25"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
