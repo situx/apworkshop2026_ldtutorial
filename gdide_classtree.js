@@ -1847,10 +1847,10 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":352,
-       "http://www.w3.org/ns/adms#Asset":176,
        "http://rdfs.org/ns/void#Dataset":176,
-       "http://www.w3.org/ns/ldp#Resource":58,
-       "https://www.iana.org/assignments/media-types/text/turtle#Resource":58
+       "http://www.w3.org/ns/adms#Asset":176,
+       "http://www.w3.org/ns/ldp#Resource":175,
+       "https://www.iana.org/assignments/media-types/text/turtle#Resource":175
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":176,
@@ -1901,22 +1901,24 @@ var tree={
        "http://rdfs.org/ns/void#Dataset":4
       },
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":{
-       "https://gdi-de.github.io/apworkshop2026/ont#Botsch":20,
+       "https://gdi-de.github.io/apworkshop2026/ont#Kaiser":176,
        "https://gdi-de.github.io/apworkshop2026/ont#Brunnen_fuer_Jogger":2,
        "https://gdi-de.github.io/apworkshop2026/ont#Bituma":42,
-       "https://gdi-de.github.io/apworkshop2026/ont#Kaiser":176
+       "https://gdi-de.github.io/apworkshop2026/ont#Botsch":20
       },
       "http://www.w3.org/2000/01/rdf-schema#member":{
-       "http://www.w3.org/2004/02/skos/core#Collection":4
+       "http://www.w3.org/2004/02/skos/core#Collection":4,
+       "http://www.w3.org/ns/ldp#Resource":3,
+       "https://www.iana.org/assignments/media-types/text/turtle#Resource":3
       }
      },
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":4,
-       "http://www.w3.org/ns/adms#Asset":4,
        "http://rdfs.org/ns/void#Dataset":4,
-       "http://www.w3.org/ns/ldp#Resource":1,
-       "https://www.iana.org/assignments/media-types/text/turtle#Resource":1
+       "http://www.w3.org/ns/adms#Asset":4,
+       "http://www.w3.org/ns/ldp#Resource":4,
+       "https://www.iana.org/assignments/media-types/text/turtle#Resource":4
       },
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":{
        "instancecount":4
@@ -2366,10 +2368,10 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":84,
-       "http://www.w3.org/ns/adms#Asset":42,
        "http://rdfs.org/ns/void#Dataset":42,
-       "http://www.w3.org/ns/ldp#Resource":15,
-       "https://www.iana.org/assignments/media-types/text/turtle#Resource":15
+       "http://www.w3.org/ns/adms#Asset":42,
+       "http://www.w3.org/ns/ldp#Resource":42,
+       "https://www.iana.org/assignments/media-types/text/turtle#Resource":42
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":42,
@@ -2444,10 +2446,10 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":4,
-       "http://www.w3.org/ns/adms#Asset":2,
        "http://rdfs.org/ns/void#Dataset":2,
-       "http://www.w3.org/ns/ldp#Resource":1,
-       "https://www.iana.org/assignments/media-types/text/turtle#Resource":1
+       "http://www.w3.org/ns/adms#Asset":2,
+       "http://www.w3.org/ns/ldp#Resource":2,
+       "https://www.iana.org/assignments/media-types/text/turtle#Resource":2
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":2,
@@ -2702,10 +2704,10 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":40,
-       "http://www.w3.org/ns/adms#Asset":20,
        "http://rdfs.org/ns/void#Dataset":20,
-       "http://www.w3.org/ns/ldp#Resource":5,
-       "https://www.iana.org/assignments/media-types/text/turtle#Resource":5
+       "http://www.w3.org/ns/adms#Asset":20,
+       "http://www.w3.org/ns/ldp#Resource":20,
+       "https://www.iana.org/assignments/media-types/text/turtle#Resource":20
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":20,
@@ -5326,8 +5328,8 @@ var tree={
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "https://gdi-de.github.io/apworkshop2026/ont#Kaiser":176,
        "https://gdi-de.github.io/apworkshop2026/ont#Bituma":42,
-       "https://gdi-de.github.io/apworkshop2026/ont#Botsch":20,
-       "https://gdi-de.github.io/apworkshop2026/ont#Brunnen_fuer_Jogger":2
+       "https://gdi-de.github.io/apworkshop2026/ont#Brunnen_fuer_Jogger":2,
+       "https://gdi-de.github.io/apworkshop2026/ont#Botsch":20
       },
       "http://www.w3.org/2000/01/rdf-schema#member":{
        "http://www.opengis.net/ont/geosparql#GeometryCollection":242
@@ -5336,10 +5338,10 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":242,
-       "http://www.w3.org/ns/adms#Asset":242,
        "http://rdfs.org/ns/void#Dataset":242,
-       "http://www.w3.org/ns/ldp#Resource":89,
-       "https://www.iana.org/assignments/media-types/text/turtle#Resource":89
+       "http://www.w3.org/ns/adms#Asset":242,
+       "http://www.w3.org/ns/ldp#Resource":242,
+       "https://www.iana.org/assignments/media-types/text/turtle#Resource":242
       },
       "http://www.opengis.net/ont/geosparql#asWKT":{
        "instancecount":242
@@ -7811,10 +7813,10 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":242,
-       "http://www.w3.org/ns/adms#Asset":242,
        "http://rdfs.org/ns/void#Dataset":242,
-       "http://www.w3.org/ns/ldp#Resource":89,
-       "https://www.iana.org/assignments/media-types/text/turtle#Resource":89
+       "http://www.w3.org/ns/adms#Asset":242,
+       "http://www.w3.org/ns/ldp#Resource":242,
+       "https://www.iana.org/assignments/media-types/text/turtle#Resource":242
       },
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":{
        "instancecount":242
@@ -8092,10 +8094,10 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":4,
-       "http://www.w3.org/ns/adms#Asset":4,
        "http://rdfs.org/ns/void#Dataset":4,
-       "http://www.w3.org/ns/ldp#Resource":3,
-       "https://www.iana.org/assignments/media-types/text/turtle#Resource":3
+       "http://www.w3.org/ns/adms#Asset":4,
+       "http://www.w3.org/ns/ldp#Resource":4,
+       "https://www.iana.org/assignments/media-types/text/turtle#Resource":4
       },
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":{
        "instancecount":4
@@ -8106,9 +8108,9 @@ var tree={
       "http://www.w3.org/2000/01/rdf-schema#member":{
        "instancecount":240,
        "https://gdi-de.github.io/apworkshop2026/ont#Brunnen_fuer_Jogger":2,
+       "https://gdi-de.github.io/apworkshop2026/ont#Kaiser":176,
        "https://gdi-de.github.io/apworkshop2026/ont#Bituma":42,
-       "https://gdi-de.github.io/apworkshop2026/ont#Botsch":20,
-       "https://gdi-de.github.io/apworkshop2026/ont#Kaiser":176
+       "https://gdi-de.github.io/apworkshop2026/ont#Botsch":20
       }
      }
     }
@@ -8157,8 +8159,8 @@ var tree={
       },
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":2,
-       "http://www.w3.org/ns/adms#Asset":2,
        "http://rdfs.org/ns/void#Dataset":2,
+       "http://www.w3.org/ns/adms#Asset":2,
        "http://www.w3.org/ns/ldp#Resource":2,
        "https://www.iana.org/assignments/media-types/text/turtle#Resource":2
       },
@@ -8197,8 +8199,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":1,
-       "http://www.w3.org/ns/adms#Asset":1,
        "http://rdfs.org/ns/void#Dataset":1,
+       "http://www.w3.org/ns/adms#Asset":1,
        "http://www.w3.org/ns/ldp#Resource":1,
        "https://www.iana.org/assignments/media-types/text/turtle#Resource":1
       },
@@ -25660,8 +25662,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":3486,
-       "http://www.w3.org/ns/adms#Asset":1743,
-       "http://rdfs.org/ns/void#Dataset":1743
+       "http://rdfs.org/ns/void#Dataset":1743,
+       "http://www.w3.org/ns/adms#Asset":1743
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":1743,
@@ -25705,8 +25707,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":2,
-       "http://www.w3.org/ns/adms#Asset":1,
-       "http://rdfs.org/ns/void#Dataset":1
+       "http://rdfs.org/ns/void#Dataset":1,
+       "http://www.w3.org/ns/adms#Asset":1
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":1,
@@ -57416,8 +57418,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":3166,
-       "http://www.w3.org/ns/adms#Asset":1583,
-       "http://rdfs.org/ns/void#Dataset":1583
+       "http://rdfs.org/ns/void#Dataset":1583,
+       "http://www.w3.org/ns/adms#Asset":1583
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":1583,
@@ -66012,8 +66014,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":1710,
-       "http://www.w3.org/ns/adms#Asset":855,
-       "http://rdfs.org/ns/void#Dataset":855
+       "http://rdfs.org/ns/void#Dataset":855,
+       "http://www.w3.org/ns/adms#Asset":855
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":855,
@@ -68988,8 +68990,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":586,
-       "http://www.w3.org/ns/adms#Asset":293,
-       "http://rdfs.org/ns/void#Dataset":293
+       "http://rdfs.org/ns/void#Dataset":293,
+       "http://www.w3.org/ns/adms#Asset":293
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":293,
@@ -81254,8 +81256,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":2444,
-       "http://www.w3.org/ns/adms#Asset":1222,
-       "http://rdfs.org/ns/void#Dataset":1222
+       "http://rdfs.org/ns/void#Dataset":1222,
+       "http://www.w3.org/ns/adms#Asset":1222
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":1222,
@@ -91220,8 +91222,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":1984,
-       "http://www.w3.org/ns/adms#Asset":992,
-       "http://rdfs.org/ns/void#Dataset":992
+       "http://rdfs.org/ns/void#Dataset":992,
+       "http://www.w3.org/ns/adms#Asset":992
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":992,
@@ -92686,8 +92688,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":284,
-       "http://www.w3.org/ns/adms#Asset":142,
-       "http://rdfs.org/ns/void#Dataset":142
+       "http://rdfs.org/ns/void#Dataset":142,
+       "http://www.w3.org/ns/adms#Asset":142
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":142,
@@ -100142,8 +100144,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":1482,
-       "http://www.w3.org/ns/adms#Asset":741,
-       "http://rdfs.org/ns/void#Dataset":741
+       "http://rdfs.org/ns/void#Dataset":741,
+       "http://www.w3.org/ns/adms#Asset":741
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":741,
@@ -103098,8 +103100,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":582,
-       "http://www.w3.org/ns/adms#Asset":291,
-       "http://rdfs.org/ns/void#Dataset":291
+       "http://rdfs.org/ns/void#Dataset":291,
+       "http://www.w3.org/ns/adms#Asset":291
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":291,
@@ -103194,8 +103196,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":10,
-       "http://www.w3.org/ns/adms#Asset":5,
-       "http://rdfs.org/ns/void#Dataset":5
+       "http://rdfs.org/ns/void#Dataset":5,
+       "http://www.w3.org/ns/adms#Asset":5
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":5,
@@ -103840,8 +103842,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":120,
-       "http://www.w3.org/ns/adms#Asset":60,
-       "http://rdfs.org/ns/void#Dataset":60
+       "http://rdfs.org/ns/void#Dataset":60,
+       "http://www.w3.org/ns/adms#Asset":60
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":60,
@@ -104566,8 +104568,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":136,
-       "http://www.w3.org/ns/adms#Asset":68,
-       "http://rdfs.org/ns/void#Dataset":68
+       "http://rdfs.org/ns/void#Dataset":68,
+       "http://www.w3.org/ns/adms#Asset":68
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":68,
@@ -110242,8 +110244,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":2,
-       "http://www.w3.org/ns/adms#Asset":1,
-       "http://rdfs.org/ns/void#Dataset":1
+       "http://rdfs.org/ns/void#Dataset":1,
+       "http://www.w3.org/ns/adms#Asset":1
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":1,
@@ -115908,8 +115910,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":1124,
-       "http://www.w3.org/ns/adms#Asset":562,
-       "http://rdfs.org/ns/void#Dataset":562
+       "http://rdfs.org/ns/void#Dataset":562,
+       "http://www.w3.org/ns/adms#Asset":562
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":562,
@@ -127484,8 +127486,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":2306,
-       "http://www.w3.org/ns/adms#Asset":1153,
-       "http://rdfs.org/ns/void#Dataset":1153
+       "http://rdfs.org/ns/void#Dataset":1153,
+       "http://www.w3.org/ns/adms#Asset":1153
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":1153,
@@ -127840,8 +127842,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":62,
-       "http://www.w3.org/ns/adms#Asset":31,
-       "http://rdfs.org/ns/void#Dataset":31
+       "http://rdfs.org/ns/void#Dataset":31,
+       "http://www.w3.org/ns/adms#Asset":31
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":31,
@@ -134226,8 +134228,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":1268,
-       "http://www.w3.org/ns/adms#Asset":634,
-       "http://rdfs.org/ns/void#Dataset":634
+       "http://rdfs.org/ns/void#Dataset":634,
+       "http://www.w3.org/ns/adms#Asset":634
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":634,
@@ -145262,8 +145264,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":2198,
-       "http://www.w3.org/ns/adms#Asset":1099,
-       "http://rdfs.org/ns/void#Dataset":1099
+       "http://rdfs.org/ns/void#Dataset":1099,
+       "http://www.w3.org/ns/adms#Asset":1099
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":1099,
@@ -145528,8 +145530,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":44,
-       "http://www.w3.org/ns/adms#Asset":22,
-       "http://rdfs.org/ns/void#Dataset":22
+       "http://rdfs.org/ns/void#Dataset":22,
+       "http://www.w3.org/ns/adms#Asset":22
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":22,
@@ -145814,8 +145816,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":48,
-       "http://www.w3.org/ns/adms#Asset":24,
-       "http://rdfs.org/ns/void#Dataset":24
+       "http://rdfs.org/ns/void#Dataset":24,
+       "http://www.w3.org/ns/adms#Asset":24
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":24,
@@ -147090,8 +147092,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":246,
-       "http://www.w3.org/ns/adms#Asset":123,
-       "http://rdfs.org/ns/void#Dataset":123
+       "http://rdfs.org/ns/void#Dataset":123,
+       "http://www.w3.org/ns/adms#Asset":123
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":123,
@@ -147866,8 +147868,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":146,
-       "http://www.w3.org/ns/adms#Asset":73,
-       "http://rdfs.org/ns/void#Dataset":73
+       "http://rdfs.org/ns/void#Dataset":73,
+       "http://www.w3.org/ns/adms#Asset":73
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":73,
@@ -149042,8 +149044,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":226,
-       "http://www.w3.org/ns/adms#Asset":113,
-       "http://rdfs.org/ns/void#Dataset":113
+       "http://rdfs.org/ns/void#Dataset":113,
+       "http://www.w3.org/ns/adms#Asset":113
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":113,
@@ -150768,8 +150770,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":336,
-       "http://www.w3.org/ns/adms#Asset":168,
-       "http://rdfs.org/ns/void#Dataset":168
+       "http://rdfs.org/ns/void#Dataset":168,
+       "http://www.w3.org/ns/adms#Asset":168
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":168,
@@ -153964,8 +153966,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":630,
-       "http://www.w3.org/ns/adms#Asset":315,
-       "http://rdfs.org/ns/void#Dataset":315
+       "http://rdfs.org/ns/void#Dataset":315,
+       "http://www.w3.org/ns/adms#Asset":315
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":315,
@@ -161520,8 +161522,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":1502,
-       "http://www.w3.org/ns/adms#Asset":751,
-       "http://rdfs.org/ns/void#Dataset":751
+       "http://rdfs.org/ns/void#Dataset":751,
+       "http://www.w3.org/ns/adms#Asset":751
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":751,
@@ -162676,8 +162678,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":220,
-       "http://www.w3.org/ns/adms#Asset":110,
-       "http://rdfs.org/ns/void#Dataset":110
+       "http://rdfs.org/ns/void#Dataset":110,
+       "http://www.w3.org/ns/adms#Asset":110
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":110,
@@ -163462,8 +163464,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":148,
-       "http://www.w3.org/ns/adms#Asset":74,
-       "http://rdfs.org/ns/void#Dataset":74
+       "http://rdfs.org/ns/void#Dataset":74,
+       "http://www.w3.org/ns/adms#Asset":74
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":74,
@@ -165818,8 +165820,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":462,
-       "http://www.w3.org/ns/adms#Asset":231,
-       "http://rdfs.org/ns/void#Dataset":231
+       "http://rdfs.org/ns/void#Dataset":231,
+       "http://www.w3.org/ns/adms#Asset":231
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":231,
@@ -166004,8 +166006,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":28,
-       "http://www.w3.org/ns/adms#Asset":14,
-       "http://rdfs.org/ns/void#Dataset":14
+       "http://rdfs.org/ns/void#Dataset":14,
+       "http://www.w3.org/ns/adms#Asset":14
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":14,
@@ -166120,8 +166122,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":14,
-       "http://www.w3.org/ns/adms#Asset":7,
-       "http://rdfs.org/ns/void#Dataset":7
+       "http://rdfs.org/ns/void#Dataset":7,
+       "http://www.w3.org/ns/adms#Asset":7
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":7,
@@ -169836,8 +169838,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":734,
-       "http://www.w3.org/ns/adms#Asset":367,
-       "http://rdfs.org/ns/void#Dataset":367
+       "http://rdfs.org/ns/void#Dataset":367,
+       "http://www.w3.org/ns/adms#Asset":367
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":367,
@@ -178422,8 +178424,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":1708,
-       "http://www.w3.org/ns/adms#Asset":854,
-       "http://rdfs.org/ns/void#Dataset":854
+       "http://rdfs.org/ns/void#Dataset":854,
+       "http://www.w3.org/ns/adms#Asset":854
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":854,
@@ -179328,8 +179330,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":172,
-       "http://www.w3.org/ns/adms#Asset":86,
-       "http://rdfs.org/ns/void#Dataset":86
+       "http://rdfs.org/ns/void#Dataset":86,
+       "http://www.w3.org/ns/adms#Asset":86
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":86,
@@ -179634,8 +179636,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":52,
-       "http://www.w3.org/ns/adms#Asset":26,
-       "http://rdfs.org/ns/void#Dataset":26
+       "http://rdfs.org/ns/void#Dataset":26,
+       "http://www.w3.org/ns/adms#Asset":26
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":26,
@@ -179760,8 +179762,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":16,
-       "http://www.w3.org/ns/adms#Asset":8,
-       "http://rdfs.org/ns/void#Dataset":8
+       "http://rdfs.org/ns/void#Dataset":8,
+       "http://www.w3.org/ns/adms#Asset":8
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":8,
@@ -181246,8 +181248,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":288,
-       "http://www.w3.org/ns/adms#Asset":144,
-       "http://rdfs.org/ns/void#Dataset":144
+       "http://rdfs.org/ns/void#Dataset":144,
+       "http://www.w3.org/ns/adms#Asset":144
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":144,
@@ -181542,8 +181544,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":50,
-       "http://www.w3.org/ns/adms#Asset":25,
-       "http://rdfs.org/ns/void#Dataset":25
+       "http://rdfs.org/ns/void#Dataset":25,
+       "http://www.w3.org/ns/adms#Asset":25
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":25,
@@ -182338,8 +182340,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":150,
-       "http://www.w3.org/ns/adms#Asset":75,
-       "http://rdfs.org/ns/void#Dataset":75
+       "http://rdfs.org/ns/void#Dataset":75,
+       "http://www.w3.org/ns/adms#Asset":75
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":75,
@@ -182464,8 +182466,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":16,
-       "http://www.w3.org/ns/adms#Asset":8,
-       "http://rdfs.org/ns/void#Dataset":8
+       "http://rdfs.org/ns/void#Dataset":8,
+       "http://www.w3.org/ns/adms#Asset":8
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":8,
@@ -183020,8 +183022,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":102,
-       "http://www.w3.org/ns/adms#Asset":51,
-       "http://rdfs.org/ns/void#Dataset":51
+       "http://rdfs.org/ns/void#Dataset":51,
+       "http://www.w3.org/ns/adms#Asset":51
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":51,
@@ -183846,8 +183848,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":156,
-       "http://www.w3.org/ns/adms#Asset":78,
-       "http://rdfs.org/ns/void#Dataset":78
+       "http://rdfs.org/ns/void#Dataset":78,
+       "http://www.w3.org/ns/adms#Asset":78
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":78,
@@ -184032,8 +184034,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":28,
-       "http://www.w3.org/ns/adms#Asset":14,
-       "http://rdfs.org/ns/void#Dataset":14
+       "http://rdfs.org/ns/void#Dataset":14,
+       "http://www.w3.org/ns/adms#Asset":14
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":14,
@@ -185538,8 +185540,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":292,
-       "http://www.w3.org/ns/adms#Asset":146,
-       "http://rdfs.org/ns/void#Dataset":146
+       "http://rdfs.org/ns/void#Dataset":146,
+       "http://www.w3.org/ns/adms#Asset":146
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":146,
@@ -185764,8 +185766,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":36,
-       "http://www.w3.org/ns/adms#Asset":18,
-       "http://rdfs.org/ns/void#Dataset":18
+       "http://rdfs.org/ns/void#Dataset":18,
+       "http://www.w3.org/ns/adms#Asset":18
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":18,
@@ -187240,8 +187242,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":286,
-       "http://www.w3.org/ns/adms#Asset":143,
-       "http://rdfs.org/ns/void#Dataset":143
+       "http://rdfs.org/ns/void#Dataset":143,
+       "http://www.w3.org/ns/adms#Asset":143
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":143,
@@ -188086,8 +188088,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":112,
-       "http://www.w3.org/ns/adms#Asset":56,
-       "http://rdfs.org/ns/void#Dataset":56
+       "http://rdfs.org/ns/void#Dataset":56,
+       "http://www.w3.org/ns/adms#Asset":56
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":56,
@@ -189532,8 +189534,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":280,
-       "http://www.w3.org/ns/adms#Asset":140,
-       "http://rdfs.org/ns/void#Dataset":140
+       "http://rdfs.org/ns/void#Dataset":140,
+       "http://www.w3.org/ns/adms#Asset":140
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":140,
@@ -190428,8 +190430,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":170,
-       "http://www.w3.org/ns/adms#Asset":85,
-       "http://rdfs.org/ns/void#Dataset":85
+       "http://rdfs.org/ns/void#Dataset":85,
+       "http://www.w3.org/ns/adms#Asset":85
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":85,
@@ -191574,8 +191576,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":220,
-       "http://www.w3.org/ns/adms#Asset":110,
-       "http://rdfs.org/ns/void#Dataset":110
+       "http://rdfs.org/ns/void#Dataset":110,
+       "http://www.w3.org/ns/adms#Asset":110
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":110,
@@ -192200,8 +192202,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":116,
-       "http://www.w3.org/ns/adms#Asset":58,
-       "http://rdfs.org/ns/void#Dataset":58
+       "http://rdfs.org/ns/void#Dataset":58,
+       "http://www.w3.org/ns/adms#Asset":58
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":58,
@@ -192436,8 +192438,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":38,
-       "http://www.w3.org/ns/adms#Asset":19,
-       "http://rdfs.org/ns/void#Dataset":19
+       "http://rdfs.org/ns/void#Dataset":19,
+       "http://www.w3.org/ns/adms#Asset":19
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":19,
@@ -192722,8 +192724,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":48,
-       "http://www.w3.org/ns/adms#Asset":24,
-       "http://rdfs.org/ns/void#Dataset":24
+       "http://rdfs.org/ns/void#Dataset":24,
+       "http://www.w3.org/ns/adms#Asset":24
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":24,
@@ -193008,8 +193010,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":48,
-       "http://www.w3.org/ns/adms#Asset":24,
-       "http://rdfs.org/ns/void#Dataset":24
+       "http://rdfs.org/ns/void#Dataset":24,
+       "http://www.w3.org/ns/adms#Asset":24
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":24,
@@ -193244,8 +193246,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":38,
-       "http://www.w3.org/ns/adms#Asset":19,
-       "http://rdfs.org/ns/void#Dataset":19
+       "http://rdfs.org/ns/void#Dataset":19,
+       "http://www.w3.org/ns/adms#Asset":19
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":19,
@@ -193380,8 +193382,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":18,
-       "http://www.w3.org/ns/adms#Asset":9,
-       "http://rdfs.org/ns/void#Dataset":9
+       "http://rdfs.org/ns/void#Dataset":9,
+       "http://www.w3.org/ns/adms#Asset":9
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":9,
@@ -193496,8 +193498,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":14,
-       "http://www.w3.org/ns/adms#Asset":7,
-       "http://rdfs.org/ns/void#Dataset":7
+       "http://rdfs.org/ns/void#Dataset":7,
+       "http://www.w3.org/ns/adms#Asset":7
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":7,
@@ -193682,8 +193684,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":28,
-       "http://www.w3.org/ns/adms#Asset":14,
-       "http://rdfs.org/ns/void#Dataset":14
+       "http://rdfs.org/ns/void#Dataset":14,
+       "http://www.w3.org/ns/adms#Asset":14
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":14,
@@ -193788,8 +193790,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":12,
-       "http://www.w3.org/ns/adms#Asset":6,
-       "http://rdfs.org/ns/void#Dataset":6
+       "http://rdfs.org/ns/void#Dataset":6,
+       "http://www.w3.org/ns/adms#Asset":6
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":6,
@@ -193894,8 +193896,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":12,
-       "http://www.w3.org/ns/adms#Asset":6,
-       "http://rdfs.org/ns/void#Dataset":6
+       "http://rdfs.org/ns/void#Dataset":6,
+       "http://www.w3.org/ns/adms#Asset":6
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":6,
@@ -193980,8 +193982,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":8,
-       "http://www.w3.org/ns/adms#Asset":4,
-       "http://rdfs.org/ns/void#Dataset":4
+       "http://rdfs.org/ns/void#Dataset":4,
+       "http://www.w3.org/ns/adms#Asset":4
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":4,
@@ -194036,8 +194038,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":2,
-       "http://www.w3.org/ns/adms#Asset":1,
-       "http://rdfs.org/ns/void#Dataset":1
+       "http://rdfs.org/ns/void#Dataset":1,
+       "http://www.w3.org/ns/adms#Asset":1
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":1,
@@ -194152,8 +194154,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":14,
-       "http://www.w3.org/ns/adms#Asset":7,
-       "http://rdfs.org/ns/void#Dataset":7
+       "http://rdfs.org/ns/void#Dataset":7,
+       "http://www.w3.org/ns/adms#Asset":7
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":7,
@@ -194398,8 +194400,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":40,
-       "http://www.w3.org/ns/adms#Asset":20,
-       "http://rdfs.org/ns/void#Dataset":20
+       "http://rdfs.org/ns/void#Dataset":20,
+       "http://www.w3.org/ns/adms#Asset":20
       },
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
        "instancecount":20,
@@ -557790,148 +557792,148 @@ var tree={
       "http://www.w3.org/2000/01/rdf-schema#member":{
        "http://www.w3.org/ns/sosa/ObservationCollection":36332
       },
-      "https://gdi-de.github.io/apworkshop2026/ont#stammdurchmesser":{
-       "http://www.wikidata.org/entity/Q156895":634,
-       "http://www.wikidata.org/entity/Q129018":74,
-       "http://www.wikidata.org/entity/Q157417":367,
-       "http://www.wikidata.org/entity/Q165145":1153,
-       "http://www.wikidata.org/entity/Q190545":315,
-       "http://www.wikidata.org/entity/Q156944":1222,
-       "http://www.wikidata.org/entity/Q156904":854,
-       "http://www.wikidata.org/entity/Q146269":751,
-       "http://www.wikidata.org/entity/Q156918":1099,
-       "http://www.wikidata.org/entity/Q158785":741,
-       "http://www.wikidata.org/entity/Q156907":1743,
-       "http://www.wikidata.org/entity/Q59779164":80,
-       "http://www.wikidata.org/entity/Q36050":855,
-       "http://www.wikidata.org/entity/Q26745":992,
-       "http://www.wikidata.org/entity/Q127849":563,
-       "http://www.wikidata.org/entity/Q158746":562,
-       "http://www.wikidata.org/entity/Q147492":143,
-       "http://www.wikidata.org/entity/Q104819":146,
-       "http://www.wikidata.org/entity/Q149553":110,
-       "http://www.wikidata.org/entity/Q24853030":140,
-       "http://www.wikidata.org/entity/Q161511":58,
-       "http://www.wikidata.org/entity/Q158776":293,
-       "http://www.wikidata.org/entity/Q21370861":60,
-       "http://www.wikidata.org/entity/Q25356":1583,
-       "http://www.wikidata.org/entity/Q30456678":1583,
-       "http://www.wikidata.org/entity/Q146149":113,
-       "http://www.wikidata.org/entity/Q12004":291,
-       "http://www.wikidata.org/entity/Q26782":75,
-       "http://www.wikidata.org/entity/Q165137":231,
-       "http://www.wikidata.org/entity/Q26899":123,
-       "http://www.wikidata.org/entity/Q148939":8,
-       "http://www.wikidata.org/entity/Q159565":142,
-       "http://www.wikidata.org/entity/Q146198":78,
-       "http://www.wikidata.org/entity/Q1510231":111,
-       "http://www.wikidata.org/entity/Q133128":144,
-       "http://www.wikidata.org/entity/Q46871":31,
-       "http://www.wikidata.org/entity/Q28919753":85,
-       "http://www.wikidata.org/entity/Q161382":24,
-       "http://www.wikidata.org/entity/Q1619005":18,
-       "http://www.wikidata.org/entity/Q165424":86,
-       "http://www.wikidata.org/entity/Q469652":6,
-       "http://www.wikidata.org/entity/Q163779":19,
-       "http://www.wikidata.org/entity/Q146281":26,
-       "http://www.wikidata.org/entity/Q24238356":168,
-       "http://www.wikidata.org/entity/Q156831":24,
-       "http://www.wikidata.org/entity/Q146110":73,
-       "http://www.wikidata.org/entity/Q131517":14,
-       "http://www.wikidata.org/entity/Q472943":51,
-       "http://www.wikidata.org/entity/Q145954":25,
-       "http://www.wikidata.org/entity/Q1151129":20,
-       "http://www.wikidata.org/entity/Q161253":5,
-       "http://www.wikidata.org/entity/Q147525":68,
-       "http://www.wikidata.org/entity/Q44120":14,
-       "http://www.wikidata.org/entity/Q157960":19,
-       "http://www.wikidata.org/entity/Q1281102":7,
-       "http://www.wikidata.org/entity/Q161166":6,
-       "http://www.wikidata.org/entity/Q131113":24,
-       "http://www.wikidata.org/entity/Q147498":14,
-       "http://www.wikidata.org/entity/Q15546565":9,
-       "http://www.wikidata.org/entity/Q159570":7,
-       "http://www.wikidata.org/entity/Q158301":22,
-       "https://gdi-de.github.io/apworkshop2026/ont#Tree":1,
-       "http://www.wikidata.org/entity/Q159553":8,
-       "http://www.wikidata.org/entity/Q146992":4,
-       "http://www.wikidata.org/entity/Q161702":7,
-       "http://www.wikidata.org/entity/Q1813339":1
-      },
       "http://www.wikidata.org/prop/direct/P2547":{
-       "http://www.wikidata.org/entity/Q156918":1099,
-       "http://www.wikidata.org/entity/Q158785":741,
-       "http://www.wikidata.org/entity/Q156907":1743,
+       "http://www.wikidata.org/entity/Q472943":51,
+       "http://www.wikidata.org/entity/Q157417":367,
        "http://www.wikidata.org/entity/Q26745":992,
+       "http://www.wikidata.org/entity/Q147525":68,
        "http://www.wikidata.org/entity/Q25356":1583,
        "http://www.wikidata.org/entity/Q30456678":1583,
-       "http://www.wikidata.org/entity/Q157417":367,
-       "http://www.wikidata.org/entity/Q133128":144,
-       "http://www.wikidata.org/entity/Q156895":634,
-       "http://www.wikidata.org/entity/Q161511":58,
-       "http://www.wikidata.org/entity/Q156944":1222,
+       "http://www.wikidata.org/entity/Q165145":1153,
+       "http://www.wikidata.org/entity/Q158776":293,
+       "http://www.wikidata.org/entity/Q156904":854,
        "http://www.wikidata.org/entity/Q127849":563,
        "http://www.wikidata.org/entity/Q158746":562,
-       "http://www.wikidata.org/entity/Q190545":315,
-       "http://www.wikidata.org/entity/Q165424":86,
-       "http://www.wikidata.org/entity/Q146110":73,
-       "http://www.wikidata.org/entity/Q165145":1153,
-       "http://www.wikidata.org/entity/Q146269":751,
-       "http://www.wikidata.org/entity/Q158776":293,
-       "http://www.wikidata.org/entity/Q1510231":111,
-       "http://www.wikidata.org/entity/Q21370861":60,
-       "http://www.wikidata.org/entity/Q146198":78,
-       "http://www.wikidata.org/entity/Q36050":855,
-       "http://www.wikidata.org/entity/Q26899":123,
-       "http://www.wikidata.org/entity/Q12004":291,
-       "http://www.wikidata.org/entity/Q24853030":140,
-       "http://www.wikidata.org/entity/Q472943":51,
-       "http://www.wikidata.org/entity/Q24238356":168,
-       "http://www.wikidata.org/entity/Q156904":854,
-       "http://www.wikidata.org/entity/Q165137":231,
-       "http://www.wikidata.org/entity/Q148939":8,
-       "http://www.wikidata.org/entity/Q129018":74,
-       "http://www.wikidata.org/entity/Q149553":110,
-       "http://www.wikidata.org/entity/Q159565":142,
-       "http://www.wikidata.org/entity/Q147492":143,
-       "http://www.wikidata.org/entity/Q104819":146,
-       "http://www.wikidata.org/entity/Q26782":75,
-       "http://www.wikidata.org/entity/Q131517":14,
-       "http://www.wikidata.org/entity/Q59779164":80,
-       "http://www.wikidata.org/entity/Q159553":8,
-       "http://www.wikidata.org/entity/Q146149":113,
-       "http://www.wikidata.org/entity/Q1619005":18,
-       "http://www.wikidata.org/entity/Q163779":19,
+       "http://www.wikidata.org/entity/Q156944":1222,
+       "http://www.wikidata.org/entity/Q156907":1743,
        "http://www.wikidata.org/entity/Q46871":31,
-       "http://www.wikidata.org/entity/Q131113":24,
-       "http://www.wikidata.org/entity/Q161382":24,
-       "http://www.wikidata.org/entity/Q147525":68,
+       "http://www.wikidata.org/entity/Q12004":291,
+       "http://www.wikidata.org/entity/Q158785":741,
+       "http://www.wikidata.org/entity/Q36050":855,
+       "http://www.wikidata.org/entity/Q146110":73,
+       "http://www.wikidata.org/entity/Q157960":19,
+       "http://www.wikidata.org/entity/Q104819":146,
+       "http://www.wikidata.org/entity/Q131517":14,
+       "http://www.wikidata.org/entity/Q146269":751,
+       "http://www.wikidata.org/entity/Q165137":231,
+       "http://www.wikidata.org/entity/Q156895":634,
+       "http://www.wikidata.org/entity/Q147492":143,
+       "http://www.wikidata.org/entity/Q26899":123,
+       "http://www.wikidata.org/entity/Q156918":1099,
+       "http://www.wikidata.org/entity/Q159565":142,
+       "http://www.wikidata.org/entity/Q146149":113,
+       "http://www.wikidata.org/entity/Q26782":75,
+       "http://www.wikidata.org/entity/Q190545":315,
+       "http://www.wikidata.org/entity/Q129018":74,
+       "http://www.wikidata.org/entity/Q133128":144,
+       "http://www.wikidata.org/entity/Q146198":78,
+       "http://www.wikidata.org/entity/Q21370861":60,
+       "http://www.wikidata.org/entity/Q24238356":168,
+       "http://www.wikidata.org/entity/Q59779164":80,
+       "http://www.wikidata.org/entity/Q24853030":140,
+       "http://www.wikidata.org/entity/Q156831":24,
+       "http://www.wikidata.org/entity/Q165424":86,
+       "http://www.wikidata.org/entity/Q161511":58,
+       "http://www.wikidata.org/entity/Q44120":14,
+       "http://www.wikidata.org/entity/Q149553":110,
+       "http://www.wikidata.org/entity/Q159553":8,
        "http://www.wikidata.org/entity/Q28919753":85,
-       "http://www.wikidata.org/entity/Q145954":25,
+       "http://www.wikidata.org/entity/Q1510231":111,
+       "http://www.wikidata.org/entity/Q159570":7,
+       "http://www.wikidata.org/entity/Q131113":24,
+       "http://www.wikidata.org/entity/Q15546565":9,
+       "http://www.wikidata.org/entity/Q1151129":20,
+       "http://www.wikidata.org/entity/Q163779":19,
        "http://www.wikidata.org/entity/Q158301":22,
-       "http://www.wikidata.org/entity/Q161702":7,
+       "http://www.wikidata.org/entity/Q146992":4,
+       "http://www.wikidata.org/entity/Q145954":25,
+       "http://www.wikidata.org/entity/Q146281":26,
+       "http://www.wikidata.org/entity/Q1281102":7,
+       "http://www.wikidata.org/entity/Q1619005":18,
+       "http://www.wikidata.org/entity/Q161382":24,
+       "http://www.wikidata.org/entity/Q148939":8,
        "http://www.wikidata.org/entity/Q147498":14,
        "http://www.wikidata.org/entity/Q469652":6,
-       "http://www.wikidata.org/entity/Q1281102":7,
-       "http://www.wikidata.org/entity/Q157960":19,
-       "http://www.wikidata.org/entity/Q15546565":9,
-       "http://www.wikidata.org/entity/Q146281":26,
-       "http://www.wikidata.org/entity/Q156831":24,
-       "http://www.wikidata.org/entity/Q161253":5,
-       "http://www.wikidata.org/entity/Q1151129":20,
-       "http://www.wikidata.org/entity/Q146992":4,
+       "http://www.wikidata.org/entity/Q161702":7,
        "http://www.wikidata.org/entity/Q161166":6,
-       "https://gdi-de.github.io/apworkshop2026/ont#Tree":1,
+       "http://www.wikidata.org/entity/Q161253":5,
+       "http://www.wikidata.org/entity/Q1813339":1,
+       "https://gdi-de.github.io/apworkshop2026/ont#Tree":1
+      },
+      "https://gdi-de.github.io/apworkshop2026/ont#stammdurchmesser":{
+       "http://www.wikidata.org/entity/Q146269":751,
+       "http://www.wikidata.org/entity/Q36050":855,
+       "http://www.wikidata.org/entity/Q25356":1583,
+       "http://www.wikidata.org/entity/Q30456678":1583,
+       "http://www.wikidata.org/entity/Q146198":78,
+       "http://www.wikidata.org/entity/Q472943":51,
+       "http://www.wikidata.org/entity/Q156907":1743,
+       "http://www.wikidata.org/entity/Q156918":1099,
+       "http://www.wikidata.org/entity/Q157960":19,
+       "http://www.wikidata.org/entity/Q156944":1222,
+       "http://www.wikidata.org/entity/Q165145":1153,
+       "http://www.wikidata.org/entity/Q156895":634,
+       "http://www.wikidata.org/entity/Q156904":854,
+       "http://www.wikidata.org/entity/Q24238356":168,
+       "http://www.wikidata.org/entity/Q1510231":111,
+       "http://www.wikidata.org/entity/Q190545":315,
+       "http://www.wikidata.org/entity/Q158785":741,
+       "http://www.wikidata.org/entity/Q127849":563,
+       "http://www.wikidata.org/entity/Q158746":562,
+       "http://www.wikidata.org/entity/Q26745":992,
+       "http://www.wikidata.org/entity/Q158776":293,
+       "http://www.wikidata.org/entity/Q159565":142,
+       "http://www.wikidata.org/entity/Q157417":367,
+       "http://www.wikidata.org/entity/Q165137":231,
+       "http://www.wikidata.org/entity/Q12004":291,
+       "http://www.wikidata.org/entity/Q24853030":140,
+       "http://www.wikidata.org/entity/Q26782":75,
+       "http://www.wikidata.org/entity/Q129018":74,
+       "http://www.wikidata.org/entity/Q133128":144,
+       "http://www.wikidata.org/entity/Q26899":123,
+       "http://www.wikidata.org/entity/Q146149":113,
+       "http://www.wikidata.org/entity/Q147525":68,
+       "http://www.wikidata.org/entity/Q146110":73,
+       "http://www.wikidata.org/entity/Q104819":146,
+       "http://www.wikidata.org/entity/Q59779164":80,
+       "http://www.wikidata.org/entity/Q145954":25,
+       "http://www.wikidata.org/entity/Q149553":110,
+       "http://www.wikidata.org/entity/Q21370861":60,
+       "http://www.wikidata.org/entity/Q1619005":18,
+       "http://www.wikidata.org/entity/Q1151129":20,
+       "http://www.wikidata.org/entity/Q161382":24,
+       "http://www.wikidata.org/entity/Q147492":143,
+       "http://www.wikidata.org/entity/Q1813339":1,
+       "http://www.wikidata.org/entity/Q146281":26,
+       "http://www.wikidata.org/entity/Q158301":22,
+       "http://www.wikidata.org/entity/Q46871":31,
+       "http://www.wikidata.org/entity/Q161511":58,
+       "http://www.wikidata.org/entity/Q28919753":85,
+       "http://www.wikidata.org/entity/Q156831":24,
+       "http://www.wikidata.org/entity/Q469652":6,
+       "http://www.wikidata.org/entity/Q159553":8,
+       "http://www.wikidata.org/entity/Q163779":19,
+       "http://www.wikidata.org/entity/Q131517":14,
+       "http://www.wikidata.org/entity/Q148939":8,
+       "http://www.wikidata.org/entity/Q165424":86,
+       "http://www.wikidata.org/entity/Q146992":4,
+       "http://www.wikidata.org/entity/Q161253":5,
+       "http://www.wikidata.org/entity/Q15546565":9,
+       "http://www.wikidata.org/entity/Q161166":6,
+       "http://www.wikidata.org/entity/Q131113":24,
        "http://www.wikidata.org/entity/Q44120":14,
+       "http://www.wikidata.org/entity/Q147498":14,
+       "https://gdi-de.github.io/apworkshop2026/ont#Tree":1,
        "http://www.wikidata.org/entity/Q159570":7,
-       "http://www.wikidata.org/entity/Q1813339":1
+       "http://www.wikidata.org/entity/Q1281102":7,
+       "http://www.wikidata.org/entity/Q161702":7
       }
      },
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":36332,
-       "http://www.w3.org/ns/adms#Asset":36332,
-       "http://rdfs.org/ns/void#Dataset":36332
+       "http://rdfs.org/ns/void#Dataset":36332,
+       "http://www.w3.org/ns/adms#Asset":36332
       },
       "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue":{
        "instancecount":36338
@@ -739617,72 +739619,72 @@ var tree={
     "data":{
      "from":{
       "http://www.opengis.net/ont/geosparql#hasGeometry":{
-       "http://www.wikidata.org/entity/Q161166":6,
-       "http://www.wikidata.org/entity/Q156904":854,
-       "http://www.wikidata.org/entity/Q165145":1153,
+       "http://www.wikidata.org/entity/Q157417":367,
        "http://www.wikidata.org/entity/Q156944":1222,
-       "http://www.wikidata.org/entity/Q36050":855,
-       "http://www.wikidata.org/entity/Q165137":231,
-       "http://www.wikidata.org/entity/Q146269":751,
-       "http://www.wikidata.org/entity/Q26745":992,
        "http://www.wikidata.org/entity/Q156907":1743,
-       "http://www.wikidata.org/entity/Q158776":293,
-       "http://www.wikidata.org/entity/Q146198":78,
-       "http://www.wikidata.org/entity/Q147525":68,
-       "http://www.wikidata.org/entity/Q156918":1099,
        "http://www.wikidata.org/entity/Q158785":741,
+       "http://www.wikidata.org/entity/Q165145":1153,
        "http://www.wikidata.org/entity/Q25356":1583,
        "http://www.wikidata.org/entity/Q30456678":1583,
-       "http://www.wikidata.org/entity/Q156895":634,
-       "http://www.wikidata.org/entity/Q28919753":85,
-       "http://www.wikidata.org/entity/Q26899":123,
-       "http://www.wikidata.org/entity/Q129018":74,
-       "http://www.wikidata.org/entity/Q146110":73,
        "http://www.wikidata.org/entity/Q190545":315,
-       "http://www.wikidata.org/entity/Q104819":146,
-       "http://www.wikidata.org/entity/Q133128":144,
-       "http://www.wikidata.org/entity/Q147492":143,
-       "http://www.wikidata.org/entity/Q156831":24,
-       "http://www.wikidata.org/entity/Q157417":367,
+       "http://www.wikidata.org/entity/Q165424":86,
+       "http://www.wikidata.org/entity/Q156904":854,
+       "http://www.wikidata.org/entity/Q156895":634,
+       "http://www.wikidata.org/entity/Q36050":855,
+       "http://www.wikidata.org/entity/Q159565":142,
        "http://www.wikidata.org/entity/Q12004":291,
-       "http://www.wikidata.org/entity/Q46871":31,
+       "http://www.wikidata.org/entity/Q156831":24,
+       "http://www.wikidata.org/entity/Q28919753":85,
+       "http://www.wikidata.org/entity/Q24238356":168,
+       "http://www.wikidata.org/entity/Q147525":68,
+       "http://www.wikidata.org/entity/Q165137":231,
+       "http://www.wikidata.org/entity/Q156918":1099,
+       "http://www.wikidata.org/entity/Q24853030":140,
        "http://www.wikidata.org/entity/Q127849":563,
        "http://www.wikidata.org/entity/Q158746":562,
-       "http://www.wikidata.org/entity/Q159565":142,
+       "http://www.wikidata.org/entity/Q146269":751,
        "http://www.wikidata.org/entity/Q131113":24,
        "http://www.wikidata.org/entity/Q59779164":80,
-       "http://www.wikidata.org/entity/Q1510231":111,
-       "http://www.wikidata.org/entity/Q24853030":140,
-       "http://www.wikidata.org/entity/Q165424":86,
-       "http://www.wikidata.org/entity/Q472943":51,
-       "http://www.wikidata.org/entity/Q157960":19,
-       "http://www.wikidata.org/entity/Q21370861":60,
-       "http://www.wikidata.org/entity/Q146149":113,
-       "http://www.wikidata.org/entity/Q26782":75,
        "http://www.wikidata.org/entity/Q146281":26,
-       "http://www.wikidata.org/entity/Q24238356":168,
-       "http://www.wikidata.org/entity/Q161511":58,
-       "http://www.wikidata.org/entity/Q159553":8,
-       "http://www.wikidata.org/entity/Q161702":7,
-       "http://www.wikidata.org/entity/Q163779":19,
        "http://www.wikidata.org/entity/Q149553":110,
-       "http://www.wikidata.org/entity/Q145954":25,
+       "http://www.wikidata.org/entity/Q26745":992,
        "http://www.wikidata.org/entity/Q131517":14,
-       "http://www.wikidata.org/entity/Q161253":5,
+       "http://www.wikidata.org/entity/Q146149":113,
+       "http://www.wikidata.org/entity/Q26899":123,
+       "http://www.wikidata.org/entity/Q158776":293,
+       "http://www.wikidata.org/entity/Q26782":75,
+       "http://www.wikidata.org/entity/Q472943":51,
+       "http://www.wikidata.org/entity/Q133128":144,
+       "http://www.wikidata.org/entity/Q104819":146,
+       "http://www.wikidata.org/entity/Q157960":19,
+       "http://www.wikidata.org/entity/Q161511":58,
+       "http://www.wikidata.org/entity/Q147492":143,
+       "http://www.wikidata.org/entity/Q21370861":60,
+       "http://www.wikidata.org/entity/Q1510231":111,
+       "http://www.wikidata.org/entity/Q129018":74,
+       "http://www.wikidata.org/entity/Q146198":78,
+       "http://www.wikidata.org/entity/Q161166":6,
        "http://www.wikidata.org/entity/Q158301":22,
-       "http://www.wikidata.org/entity/Q161382":24,
        "http://www.wikidata.org/entity/Q1619005":18,
+       "http://www.wikidata.org/entity/Q146110":73,
+       "http://www.wikidata.org/entity/Q163779":19,
+       "http://www.wikidata.org/entity/Q161382":24,
+       "http://www.wikidata.org/entity/Q15546565":9,
+       "http://www.wikidata.org/entity/Q159553":8,
+       "http://www.wikidata.org/entity/Q159570":7,
+       "http://www.wikidata.org/entity/Q1151129":20,
        "http://www.wikidata.org/entity/Q147498":14,
        "http://www.wikidata.org/entity/Q44120":14,
+       "http://www.wikidata.org/entity/Q145954":25,
+       "http://www.wikidata.org/entity/Q161253":5,
+       "http://www.wikidata.org/entity/Q46871":31,
+       "http://www.wikidata.org/entity/Q161702":7,
        "http://www.wikidata.org/entity/Q469652":6,
-       "http://www.wikidata.org/entity/Q1151129":20,
+       "http://www.wikidata.org/entity/Q146992":4,
        "http://www.wikidata.org/entity/Q148939":8,
        "http://www.wikidata.org/entity/Q1281102":7,
-       "http://www.wikidata.org/entity/Q15546565":9,
-       "http://www.wikidata.org/entity/Q159570":7,
-       "https://gdi-de.github.io/apworkshop2026/ont#Tree":1,
-       "http://www.wikidata.org/entity/Q146992":4,
-       "http://www.wikidata.org/entity/Q1813339":1
+       "http://www.wikidata.org/entity/Q1813339":1,
+       "https://gdi-de.github.io/apworkshop2026/ont#Tree":1
       },
       "http://www.w3.org/2000/01/rdf-schema#member":{
        "http://www.opengis.net/ont/geosparql#GeometryCollection":18166
@@ -739691,8 +739693,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":18166,
-       "http://www.w3.org/ns/adms#Asset":18166,
-       "http://rdfs.org/ns/void#Dataset":18166
+       "http://rdfs.org/ns/void#Dataset":18166,
+       "http://www.w3.org/ns/adms#Asset":18166
       },
       "http://www.opengis.net/ont/geosparql#asWKT":{
        "instancecount":18254
@@ -740424,8 +740426,8 @@ var tree={
      "to":{
       "http://rdfs.org/ns/void#inDataset":{
        "instancecount":1,
-       "http://www.w3.org/ns/adms#Asset":1,
-       "http://rdfs.org/ns/void#Dataset":1
+       "http://rdfs.org/ns/void#Dataset":1,
+       "http://www.w3.org/ns/adms#Asset":1
       },
       "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":{
        "instancecount":1
