@@ -81,6 +81,7 @@ jobs:
     with: 
         version: v018
         pythonversion: 3.14
+        debug: true
         rdffilepath: source_baumkataster_hamburg_mappings_baumkataster.ttl source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.ttl
         rdffilebranch: gh-pages
         docpath: docs
