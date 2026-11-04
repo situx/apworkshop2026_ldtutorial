@@ -12,6 +12,5 @@
     void:property <http://www.opengis.net/ont/crs/asWKT>,
         geo:asWKT ;
     void:triples 3,
-        242,
-        18254 .
+        242 .
 

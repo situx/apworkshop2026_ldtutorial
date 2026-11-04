@@ -34,29 +34,21 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "gdide_dataset"@en ;
-    ns1:averageLiteralLength 21,
-        27 ;
-    ns1:averageObjectIRILength 48,
-        56 ;
-    ns1:averagePropertyIRILength 41,
-        43 ;
-    ns1:averageSubjectIRILength 48,
-        56 ;
-    ns1:datatypes 2,
-        4 ;
+    ns1:averageLiteralLength 27 ;
+    ns1:averageObjectIRILength 48 ;
+    ns1:averagePropertyIRILength 41 ;
+    ns1:averageSubjectIRILength 48 ;
+    ns1:datatypes 4 ;
     ns1:distinctBlankNodes 0 ;
-    ns1:distinctIRIReferences 2788,
-        235000 ;
-    ns1:distinctLiterals 1125,
-        91253 ;
-    ns1:distinctRDFNodes 3913,
-        326253 ;
+    ns1:distinctIRIReferences 2788 ;
+    ns1:distinctLiterals 1125 ;
+    ns1:distinctRDFNodes 3913 ;
     ns1:languages 2 ;
     ns1:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2026-11-04T16:00:03"^^xsd:dateTime ;
+    dcterms:modified "2026-11-04T21:40:06"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -82,99 +74,24 @@
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_GeometryCollection>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Kaiser>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Measure>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_MultiPoint>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_ObservationCollection>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_PlanarCoordinateSystem>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Point>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_PrimeMeridian>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q104819>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q1151129>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q12004>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q127849>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q1281102>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q129018>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q131113>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q131517>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q133128>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q145954>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q146110>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q146149>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q146198>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q146269>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q146281>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q146992>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q147492>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q147498>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q147525>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q148939>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q149553>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q1510231>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q15546565>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q156831>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q156895>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q156904>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q156907>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q156918>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q156944>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q157417>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q157960>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q158301>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q158746>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q158776>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q158785>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q159553>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q159565>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q159570>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q161166>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q161253>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q161382>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q161511>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q161702>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q1619005>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q1630622>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q163779>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q165137>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q165145>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q165424>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q1813339>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q190545>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q21370861>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q24238356>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q24853030>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q25356>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q26745>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q26782>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q26899>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q28919753>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q30456678>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q36050>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q42744322>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q44120>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q46871>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q469652>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q472943>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q59779164>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Resource>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_SpatialObjectCollection>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_TemporalEntity>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Tree>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Unit> ;
-    void:classes 25,
-        85 ;
+    void:classes 25 ;
     void:dataDump "https://situx.github.io/apworkshop2026_ldtutorial//index.ttl"^^xsd:anyURI ;
-    void:distinctObjects 1962,
-        162131 ;
-    void:distinctSubjects 778,
-        72824 ;
-    void:entities 738,
-        72737 ;
+    void:distinctObjects 1962 ;
+    void:distinctSubjects 778 ;
+    void:entities 738 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 45,
-        48 ;
+    void:properties 48 ;
     void:propertyPartition <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P131>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P2547>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P3018>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P571>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_abbreviation>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_approximates>,
@@ -195,9 +112,7 @@
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasBeginning>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasEnd>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasGeometry>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasNumericalValue>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasTime>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasUnit>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_homepage>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_inDataset>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_inSRS>,
@@ -217,15 +132,13 @@
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_scopeNote>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_semiMajorAxis>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_semiMinorAxis>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_stammdurchmesser>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_subClassOf>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_type>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_auth_code>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_code>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_conversion_factor> ;
-    void:triples 6465,
-        509576 ;
+    void:triples 6465 ;
     void:uriSpace "https://gdi-de.github.io/apworkshop2026/"^^xsd:string ;
     void:vocabulary ns1:,
         dcam:,

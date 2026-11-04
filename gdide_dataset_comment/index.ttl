@@ -9,6 +9,5 @@
     rdfs:label "Property Partition: comment"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property rdfs:comment ;
-    void:triples 242,
-        18169 .
+    void:triples 242 .
 

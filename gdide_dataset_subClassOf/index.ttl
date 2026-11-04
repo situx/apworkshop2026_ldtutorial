@@ -9,6 +9,5 @@
     rdfs:label "Property Partition: subClassOf"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property rdfs:subClassOf ;
-    void:triples 8,
-        70 .
+    void:triples 8 .
 
